@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F95541DA2BF4F37300E35649 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541D92BF4F37300E35649 /* UserModel.swift */; };
+		F95541DC2BF4F5EB00E35649 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541DB2BF4F5EB00E35649 /* UserModelBasicView.swift */; };
+		F95541DE2BF4FA0C00E35649 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541DD2BF4FA0C00E35649 /* FruitModel.swift */; };
+		F95541E02BF4FA6A00E35649 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541DF2BF4FA6A00E35649 /* FruitViewModel.swift */; };
+		F95541E42BF4FD8600E35649 /* FruitBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541E32BF4FD8600E35649 /* FruitBasicView.swift */; };
+		F95541E62BF5043F00E35649 /* IOSDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541E52BF5043F00E35649 /* IOSDeviceModel.swift */; };
+		F95541E82BF5049300E35649 /* IOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541E72BF5049300E35649 /* IOSDeviceViewModel.swift */; };
+		F95541EA2BF5058500E35649 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541E92BF5058500E35649 /* IOSDeviceView1.swift */; };
+		F95541EC2BF50C6E00E35649 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541EB2BF50C6E00E35649 /* IOSDeviceView2.swift */; };
+		F95541EE2BF50DD300E35649 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541ED2BF50DD300E35649 /* IOSDeviceView3.swift */; };
+		F95541F02BF5127900E35649 /* AppStorageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95541EF2BF5127900E35649 /* AppStorageBasic.swift */; };
 		F97524512BF24C1400276ACD /* SwiftUIBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97524502BF24C1400276ACD /* SwiftUIBasicApp.swift */; };
 		F97524532BF24C1400276ACD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97524522BF24C1400276ACD /* ContentView.swift */; };
 		F97524552BF24C1500276ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97524542BF24C1500276ACD /* Assets.xcassets */; };
@@ -60,6 +71,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F95541D92BF4F37300E35649 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F95541DB2BF4F5EB00E35649 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
+		F95541DD2BF4FA0C00E35649 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		F95541DF2BF4FA6A00E35649 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		F95541E32BF4FD8600E35649 /* FruitBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitBasicView.swift; sourceTree = "<group>"; };
+		F95541E52BF5043F00E35649 /* IOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceModel.swift; sourceTree = "<group>"; };
+		F95541E72BF5049300E35649 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		F95541E92BF5058500E35649 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
+		F95541EB2BF50C6E00E35649 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
+		F95541ED2BF50DD300E35649 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
+		F95541EF2BF5127900E35649 /* AppStorageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBasic.swift; sourceTree = "<group>"; };
 		F975244D2BF24C1400276ACD /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97524502BF24C1400276ACD /* SwiftUIBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicApp.swift; sourceTree = "<group>"; };
 		F97524522BF24C1400276ACD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +146,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F95541D52BF4F32900E35649 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				F95541D82BF4F34D00E35649 /* Model */,
+				F95541D72BF4F34600E35649 /* ViewModel */,
+				F95541D62BF4F33500E35649 /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		F95541D62BF4F33500E35649 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F95541DB2BF4F5EB00E35649 /* UserModelBasicView.swift */,
+				F95541E32BF4FD8600E35649 /* FruitBasicView.swift */,
+				F95541E92BF5058500E35649 /* IOSDeviceView1.swift */,
+				F95541EB2BF50C6E00E35649 /* IOSDeviceView2.swift */,
+				F95541ED2BF50DD300E35649 /* IOSDeviceView3.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F95541D72BF4F34600E35649 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F95541DF2BF4FA6A00E35649 /* FruitViewModel.swift */,
+				F95541E72BF5049300E35649 /* IOSDeviceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F95541D82BF4F34D00E35649 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F95541D92BF4F37300E35649 /* UserModel.swift */,
+				F95541DD2BF4FA0C00E35649 /* FruitModel.swift */,
+				F95541E52BF5043F00E35649 /* IOSDeviceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F97524442BF24C1400276ACD = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +252,8 @@
 				F97524B72BF255EB00276ACD /* DarkModeBasic.swift */,
 				F97524B92BF255F500276ACD /* OnAppearBasic.swift */,
 				F97524BB2BF255FE00276ACD /* onTabGestureBasic.swift */,
+				F95541EF2BF5127900E35649 /* AppStorageBasic.swift */,
+				F95541D52BF4F32900E35649 /* MVVM */,
 				F975248C2BF2545F00276ACD /* Component */,
 				F97524542BF24C1500276ACD /* Assets.xcassets */,
 				F97524562BF24C1500276ACD /* Preview Content */,
@@ -284,19 +349,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F97524AA2BF2559400276ACD /* ToggleBasic.swift in Sources */,
+				F95541DA2BF4F37300E35649 /* UserModel.swift in Sources */,
 				F975246B2BF2534F00276ACD /* ImageBasic.swift in Sources */,
 				F97524792BF253BB00276ACD /* LazyGridBasic.swift in Sources */,
 				F975249C2BF2554700276ACD /* NavigationBasic.swift in Sources */,
 				F97524872BF2542400276ACD /* ExtractSubViewBasic.swift in Sources */,
+				F95541F02BF5127900E35649 /* AppStorageBasic.swift in Sources */,
+				F95541DC2BF4F5EB00E35649 /* UserModelBasicView.swift in Sources */,
 				F97524672BF2532A00276ACD /* GradientBasic.swift in Sources */,
 				F97524692BF2533E00276ACD /* IconBasic.swift in Sources */,
 				F975246F2BF2536700276ACD /* BackgroundOverlayBasic.swift in Sources */,
 				F97524982BF2553300276ACD /* SheetBasic.swift in Sources */,
 				F97524962BF2552700276ACD /* TransitionBasic.swift in Sources */,
+				F95541EE2BF50DD300E35649 /* IOSDeviceView3.swift in Sources */,
 				F975245F2BF24C3700276ACD /* TextBasic.swift in Sources */,
+				F95541E42BF4FD8600E35649 /* FruitBasicView.swift in Sources */,
 				F97524812BF253F500276ACD /* ButtonBasic.swift in Sources */,
 				F97524BA2BF255F500276ACD /* OnAppearBasic.swift in Sources */,
 				F97524B22BF255CA00276ACD /* StepperBasic.swift in Sources */,
+				F95541E62BF5043F00E35649 /* IOSDeviceModel.swift in Sources */,
 				F97524B42BF255D400276ACD /* SliderBasic.swift in Sources */,
 				F975248E2BF2547100276ACD /* ItemBasic.swift in Sources */,
 				F97524A62BF2557E00276ACD /* ActionSheetBasic.swift in Sources */,
@@ -306,6 +377,7 @@
 				F97524532BF24C1400276ACD /* ContentView.swift in Sources */,
 				F97524B62BF255DE00276ACD /* TabViewBasic.swift in Sources */,
 				F97524B82BF255EB00276ACD /* DarkModeBasic.swift in Sources */,
+				F95541E02BF4FA6A00E35649 /* FruitViewModel.swift in Sources */,
 				F97524BC2BF255FE00276ACD /* onTabGestureBasic.swift in Sources */,
 				F97524A82BF2558A00276ACD /* TextFieldBasic.swift in Sources */,
 				F97524632BF2530900276ACD /* ShapeBasic.swift in Sources */,
@@ -315,9 +387,12 @@
 				F975247F2BF253E700276ACD /* IgnoreSafeAreaBasic.swift in Sources */,
 				F975249A2BF2553D00276ACD /* SheetBasic2.swift in Sources */,
 				F97524A42BF2557300276ACD /* ContextMenuBasic.swift in Sources */,
+				F95541E82BF5049300E35649 /* IOSDeviceViewModel.swift in Sources */,
+				F95541EA2BF5058500E35649 /* IOSDeviceView1.swift in Sources */,
 				F97524512BF24C1400276ACD /* SwiftUIBasicApp.swift in Sources */,
 				F97524922BF254F100276ACD /* TernaryBasic.swift in Sources */,
 				F97524752BF2539400276ACD /* SpacerBasic.swift in Sources */,
+				F95541EC2BF50C6E00E35649 /* IOSDeviceView2.swift in Sources */,
 				F97524942BF2550400276ACD /* AnimationBasic.swift in Sources */,
 				F975248B2BF2544200276ACD /* ConditionalBasic.swift in Sources */,
 				F97524852BF2541700276ACD /* ExtractViewBasic.swift in Sources */,
@@ -327,6 +402,7 @@
 				F97524892BF2543800276ACD /* BindingBasic.swift in Sources */,
 				F97524732BF2538700276ACD /* PaddingBasic.swift in Sources */,
 				F97524AC2BF2559D00276ACD /* PickerBasic.swift in Sources */,
+				F95541DE2BF4FA0C00E35649 /* FruitModel.swift in Sources */,
 				F97524712BF2537800276ACD /* StackBasic.swift in Sources */,
 				F97524832BF2540400276ACD /* StateBasic.swift in Sources */,
 				F97524AE2BF255AA00276ACD /* ColorPickerBasic.swift in Sources */,
@@ -471,6 +547,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +576,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
